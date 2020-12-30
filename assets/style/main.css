@@ -1,0 +1,66 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  color: #333;
+  margin: 0;
+}
+
+main {
+  text-align: center;
+  background: #eee;
+  margin: 50px 30px;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+li p {
+  text-align: left;
+}
+article {
+  text-align: center;
+}
+#tribute-info + div {
+  width: 30%;
+  margin: auto;
+}
+#tribute-info + div p {
+  text-align: left;
+}
+#img-div {
+  background: white;
+  margin: auto 30px;
+  padding: 2% 5%;
+}
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+@media screen and (max-width: 1440px) {
+  #tribute-info + div {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  #tribute-info + div {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  main {
+    margin: 0;
+  }
+
+  body {
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}
